@@ -1,4 +1,4 @@
-FROM gradle:7.4.2-jdk18-alpine as builder
+FROM ibm-semeru-runtimes:open-18-jdk as builder
 
 WORKDIR /usr/app
 
